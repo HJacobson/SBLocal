@@ -1,0 +1,1660 @@
+[0919/115522:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0919/143411:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0919/143425:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0920/112807:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0920/114559:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0920/114846:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0920/125218:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0920/125230:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0920/125425:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0920/130013:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/114841:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/141957:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/142649:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/143336:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/144427:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/144532:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/160015:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/160051:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/160335:FATAL:browser_host_impl.cc(277)] Check failed: iter.IsAtEnd(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x10183A2B+31739]
+	cef_time_from_doublet [0x1024152E+408366]
+	cef_time_from_doublet [0x1111F87F+15998591]
+	cef_time_from_doublet [0x1111F23F+15996991]
+	cef_time_from_doublet [0x111670A9+16291497]
+	cef_time_from_doublet [0x11153A54+16212052]
+	cef_time_from_doublet [0x1135FEF9+18359545]
+	cef_time_from_doublet [0x1135E601+18353153]
+	cef_time_from_doublet [0x1114C71B+16182555]
+	cef_time_from_doublet [0x1114C5BF+16182207]
+	cef_time_from_doublet [0x11347E0D+18261005]
+	cef_time_from_doublet [0x11343CAA+18244266]
+	cef_time_from_doublet [0x11344C63+18248291]
+	cef_string_multimap_free [0x101865EB+42939]
+	cef_time_from_doublet [0x10204DFA+160762]
+	cef_browser_host_create_browser [0x1004F650+304934]
+	CefFrameCToCpp::LoadURL [0x0047D5ED+141] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\ctocpp\frame_ctocpp.cc:177)
+	ClientHandler::OnRenderProcessTerminated [0x00422A62+338] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\client_handler.cpp:348)
+	load_handler_on_render_process_terminated [0x004784AA+154] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\cpptoc\load_handler_cpptoc.cc:112)
+	cef_browser_host_create_browser [0x10024586+128604]
+	cef_string_multimap_free [0x10188D73+53059]
+	cef_time_from_doublet [0x1115122E+16201774]
+	cef_time_from_doublet [0x1116E803+16322051]
+	cef_time_from_doublet [0x1118AD1C+16438044]
+	cef_time_from_doublet [0x111841D9+16410585]
+	cef_time_from_doublet [0x1116B98A+16310154]
+	cef_time_from_doublet [0x111236FE+16014590]
+	cef_time_from_doublet [0x11122771+16010609]
+	(No symbol) [0x119D9DBD]
+	(No symbol) [0x119DCDD1]
+	(No symbol) [0x119DCBCA]
+	(No symbol) [0x119DC819]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004506EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004063AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004964B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049635F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/160338:FATAL:browser_host_impl.cc(277)] Check failed: iter.IsAtEnd(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x10183A2B+31739]
+	cef_time_from_doublet [0x1024152E+408366]
+	cef_time_from_doublet [0x11120743+16002371]
+	cef_time_from_doublet [0x1111F97A+15998842]
+	cef_time_from_doublet [0x1111F23F+15996991]
+	cef_time_from_doublet [0x111670A9+16291497]
+	cef_time_from_doublet [0x11153A54+16212052]
+	cef_time_from_doublet [0x1135FEF9+18359545]
+	cef_time_from_doublet [0x1135E601+18353153]
+	cef_time_from_doublet [0x1114C71B+16182555]
+	cef_time_from_doublet [0x1114C5BF+16182207]
+	cef_time_from_doublet [0x11347E0D+18261005]
+	cef_time_from_doublet [0x11343CAA+18244266]
+	cef_time_from_doublet [0x11344C63+18248291]
+	cef_string_multimap_free [0x101865EB+42939]
+	cef_time_from_doublet [0x10204DFA+160762]
+	cef_browser_host_create_browser [0x1004F650+304934]
+	CefFrameCToCpp::LoadURL [0x0047D5ED+141] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\ctocpp\frame_ctocpp.cc:177)
+	ClientHandler::OnRenderProcessTerminated [0x00422A62+338] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\client_handler.cpp:348)
+	load_handler_on_render_process_terminated [0x004784AA+154] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\cpptoc\load_handler_cpptoc.cc:112)
+	cef_browser_host_create_browser [0x10024586+128604]
+	cef_string_multimap_free [0x10188D73+53059]
+	cef_time_from_doublet [0x1115122E+16201774]
+	cef_time_from_doublet [0x1116E803+16322051]
+	cef_time_from_doublet [0x1118AD1C+16438044]
+	cef_time_from_doublet [0x111841D9+16410585]
+	cef_time_from_doublet [0x1116B98A+16310154]
+	cef_time_from_doublet [0x111236FE+16014590]
+	cef_time_from_doublet [0x11122771+16010609]
+	(No symbol) [0x119D9DBD]
+	(No symbol) [0x119DCDD1]
+	(No symbol) [0x119DCBCA]
+	(No symbol) [0x119DC819]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004506EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004063AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004964B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049635F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/160339:FATAL:browser_host_impl.cc(277)] Check failed: iter.IsAtEnd(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x10183A2B+31739]
+	cef_time_from_doublet [0x1024152E+408366]
+	cef_time_from_doublet [0x11120743+16002371]
+	cef_time_from_doublet [0x11120307+16001287]
+	cef_time_from_doublet [0x1111F23F+15996991]
+	cef_time_from_doublet [0x111670A9+16291497]
+	cef_time_from_doublet [0x11153A54+16212052]
+	cef_time_from_doublet [0x1135FEF9+18359545]
+	cef_time_from_doublet [0x1135E601+18353153]
+	cef_time_from_doublet [0x1114C71B+16182555]
+	cef_time_from_doublet [0x1114C5BF+16182207]
+	cef_time_from_doublet [0x11347E0D+18261005]
+	cef_time_from_doublet [0x11343CAA+18244266]
+	cef_time_from_doublet [0x11344C63+18248291]
+	cef_string_multimap_free [0x101865EB+42939]
+	cef_time_from_doublet [0x10204DFA+160762]
+	cef_browser_host_create_browser [0x1004F650+304934]
+	CefFrameCToCpp::LoadURL [0x0047D5ED+141] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\ctocpp\frame_ctocpp.cc:177)
+	ClientHandler::OnRenderProcessTerminated [0x00422A62+338] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\client_handler.cpp:348)
+	load_handler_on_render_process_terminated [0x004784AA+154] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\cpptoc\load_handler_cpptoc.cc:112)
+	cef_browser_host_create_browser [0x10024586+128604]
+	cef_string_multimap_free [0x10188D73+53059]
+	cef_time_from_doublet [0x1115122E+16201774]
+	cef_time_from_doublet [0x1116E803+16322051]
+	cef_time_from_doublet [0x1118AD1C+16438044]
+	cef_time_from_doublet [0x111841D9+16410585]
+	cef_time_from_doublet [0x1116B98A+16310154]
+	cef_time_from_doublet [0x111236FE+16014590]
+	cef_time_from_doublet [0x11122771+16010609]
+	(No symbol) [0x119D9DBD]
+	(No symbol) [0x119DCDD1]
+	(No symbol) [0x119DCBCA]
+	(No symbol) [0x119DC819]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004506EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004063AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004964B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049635F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/160339:FATAL:browser_host_impl.cc(277)] Check failed: iter.IsAtEnd(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x10183A2B+31739]
+	cef_time_from_doublet [0x1024152E+408366]
+	cef_time_from_doublet [0x1112051A+16001818]
+	cef_time_from_doublet [0x1111F23F+15996991]
+	cef_time_from_doublet [0x111670A9+16291497]
+	cef_time_from_doublet [0x11153A54+16212052]
+	cef_time_from_doublet [0x1135FEF9+18359545]
+	cef_time_from_doublet [0x1135E601+18353153]
+	cef_time_from_doublet [0x1114C71B+16182555]
+	cef_time_from_doublet [0x1114C5BF+16182207]
+	cef_time_from_doublet [0x11347E0D+18261005]
+	cef_time_from_doublet [0x11343CAA+18244266]
+	cef_time_from_doublet [0x11344C63+18248291]
+	cef_string_multimap_free [0x101865EB+42939]
+	cef_time_from_doublet [0x10204DFA+160762]
+	cef_browser_host_create_browser [0x1004F650+304934]
+	CefFrameCToCpp::LoadURL [0x0047D5ED+141] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\ctocpp\frame_ctocpp.cc:177)
+	ClientHandler::OnRenderProcessTerminated [0x00422A62+338] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\client_handler.cpp:348)
+	load_handler_on_render_process_terminated [0x004784AA+154] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\cpptoc\load_handler_cpptoc.cc:112)
+	cef_browser_host_create_browser [0x10024586+128604]
+	cef_string_multimap_free [0x10188D73+53059]
+	cef_time_from_doublet [0x1115122E+16201774]
+	cef_time_from_doublet [0x1116E803+16322051]
+	cef_time_from_doublet [0x1118AD1C+16438044]
+	cef_time_from_doublet [0x111841D9+16410585]
+	cef_time_from_doublet [0x1116B98A+16310154]
+	cef_time_from_doublet [0x111236FE+16014590]
+	cef_time_from_doublet [0x11122771+16010609]
+	(No symbol) [0x119D9DBD]
+	(No symbol) [0x119DCDD1]
+	(No symbol) [0x119DCBCA]
+	(No symbol) [0x119DC819]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004506EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004063AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004964B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049635F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/160541:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/160546:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/161102:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/161157:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/161203:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/161244:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004516EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x0040647F+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004974C2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049736F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/161300:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/161445:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/162432:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/162548:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004516EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x0040647F+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004974C2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049736F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/162653:FATAL:menu_creator.cc(93)] Check failed: model_->VerifyRefCount(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE3FF+133631]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004516EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x0040647F+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004974C2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049736F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/162659:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x004516EC+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x0040647F+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120921\cefclient\cefclient_win.cpp:102)
+	__tmainCRTStartup [0x004974C2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049736F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0921/162719:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/163535:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/163537:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/163822:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/163822:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/164622:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/164623:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/164740:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/170309:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/170310:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/170336:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/170520:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/170520:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/170641:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/170702:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/170702:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/171641:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/171641:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/171738:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/171817:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/171817:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/171836:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/172207:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/172208:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/172226:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/172304:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/172304:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/172423:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/172433:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/172520:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/172520:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/172538:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0921/172552:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/172552:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0921/172849:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0921/172849:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/092200:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/092211:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/092329:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/093227:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/093237:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/111949:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/112048:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/112132:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/112443:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/112651:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/113125:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/113654:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/113659:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/113727:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/114055:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/114058:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/114248:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/114252:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/114735:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/114737:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/114945:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/115706:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/115724:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/115811:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115814:FATAL:menu_creator.cc(93)] Check failed: model_->VerifyRefCount(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE3FF+133631]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115818:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115820:FATAL:menu_creator.cc(93)] Check failed: model_->VerifyRefCount(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE3FF+133631]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115826:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/115843:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/115847:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/115853:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115904:FATAL:menu_creator.cc(93)] Check failed: model_->VerifyRefCount(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE3FF+133631]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115914:FATAL:libcef_dll.cc(162)] Check failed: CefBrowserCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x100095ED+18115]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115916:FATAL:libcef_dll.cc(167)] Check failed: CefContextMenuParamsCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x100097D7+18605]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115917:FATAL:libcef_dll.cc(181)] Check failed: CefFrameCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x10009D33+19977]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/115917:FATAL:libcef_dll.cc(190)] Check failed: CefMenuModelCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x1000A0A5+20859]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x00497A52+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x004978FF+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/120308:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/120310:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/120359:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x004979B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049785F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/120425:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/120732:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/120735:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/120830:FATAL:menu_creator.cc(92)] Check failed: paramsPtr->GetRefCt() == 1 (2 vs. 1)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE37D+133501]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x004979B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049785F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/120838:FATAL:menu_creator.cc(93)] Check failed: model_->VerifyRefCount(). 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_time_from_doublet [0x101FE3FF+133631]
+	cef_string_multimap_free [0x10187D3C+48908]
+	cef_time_from_doublet [0x1114C2B4+16181428]
+	cef_time_from_doublet [0x1116F42D+16325165]
+	cef_time_from_doublet [0x1118B003+16438787]
+	cef_time_from_doublet [0x11184B71+16413041]
+	cef_time_from_doublet [0x1116C31E+16312606]
+	cef_time_from_doublet [0x111222B4+16009396]
+	(No symbol) [0x119D9C72]
+	(No symbol) [0x119DCD90]
+	(No symbol) [0x119DCBA7]
+	(No symbol) [0x119DC78F]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x1010FF7F+1093717]
+	cef_browser_host_create_browser [0x10110173+1094217]
+	cef_browser_host_create_browser [0x10110B5D+1096755]
+	cef_browser_host_create_browser [0x1011C7E4+1145018]
+	cef_browser_host_create_browser [0x1011BDD2+1142440]
+	cef_browser_host_create_browser [0x1011C04C+1143074]
+	cef_browser_host_create_browser [0x1010FBE6+1092796]
+	cef_browser_host_create_browser [0x1010F9BB+1092241]
+	cef_browser_host_create_browser [0x101110E9+1098175]
+	cef_string_multimap_free [0x101C1048+283160]
+	cef_string_multimap_free [0x101C1080+283216]
+	cef_browser_host_create_browser [0x101532BA+1368976]
+	cef_browser_host_create_browser [0x1000B118+25070]
+	CefRunMessageLoop [0x00451C7C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:222)
+	wWinMain [0x004064AF+495] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:104)
+	__tmainCRTStartup [0x004979B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049785F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/121005:FATAL:libcef_dll.cc(162)] Check failed: CefBrowserCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x100095ED+18115]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x004979B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049785F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/121008:FATAL:libcef_dll.cc(167)] Check failed: CefContextMenuParamsCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x100097D7+18605]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x004979B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049785F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/121009:FATAL:libcef_dll.cc(181)] Check failed: CefFrameCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x10009D33+19977]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x004979B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049785F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/121010:FATAL:libcef_dll.cc(190)] Check failed: CefMenuModelCppToC::DebugObjCt == 0 (1 vs. 0)
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x1000A0A5+20859]
+	CefShutdown [0x0045151C+12] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\libcef_dll\wrapper\libcef_dll_wrapper.cc:147)
+	wWinMain [0x0040653B+635] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120924\cefclient\cefclient_win.cpp:121)
+	__tmainCRTStartup [0x004979B2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049785F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[0924/121710:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/121714:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/125050:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/125325:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/125333:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/130626:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/130659:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/130700:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/130951:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/131036:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/131039:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/131106:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/135010:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/135016:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/145007:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/150456:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/150520:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/150948:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/151037:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/151038:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/151244:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/151306:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/151307:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/151951:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/151952:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/152132:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/152144:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/152144:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/152144:WARNING:ipc_channel_win.cc(253)] Unable to create pipe "\\.\pipe\chrome.5616.0.188786610" in client mode. Error :2
+[0924/152144:WARNING:ipc_channel_win.cc(253)] Unable to create pipe "\\.\pipe\chrome.5616.1.124073121" in client mode. Error :2
+[0924/152157:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/152157:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/153417:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/153437:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/154111:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/154111:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/154403:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/154603:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/155510:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/155531:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/161220:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/161233:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/161343:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/161502:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/161506:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/161631:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/161712:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/161712:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/162029:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/162030:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/162245:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/162353:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/162353:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/162552:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0924/162811:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/162811:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/163654:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/163655:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/165359:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/165400:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0924/170037:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0924/170038:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/101851:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/101909:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/102155:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/102304:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/103916:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/110731:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/110757:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/111103:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/111108:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/111349:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/111630:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/112211:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/112215:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/112649:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/112653:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/112924:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/113102:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/113426:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/113431:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/113518:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/113547:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/115252:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/115315:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/115615:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/115849:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/115849:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0925/115921:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/120148:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0925/120204:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0927/175628:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/175637:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0927/175748:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0927/180641:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/180650:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0927/180755:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0927/181116:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/181125:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0927/181326:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/181327:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/101206:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/101218:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/102714:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/102723:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/103844:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/103903:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/104040:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/104138:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/104150:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/105946:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/105957:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/111736:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/111812:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/112018:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/112022:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/112417:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/112451:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/113021:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/113047:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/113530:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/113546:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/113756:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/113811:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/115413:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/115436:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/120342:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/120343:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/121116:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/121117:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/121607:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/121608:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/122954:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/123709:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/124131:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/124132:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/124403:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0928/125635:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/125639:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/125923:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/125924:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/130147:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/130148:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/130331:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/130337:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/131853:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/131853:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/133543:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/133543:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/135546:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/135547:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/141238:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/141239:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/142320:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/142322:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/144630:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/144631:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/144651:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/144651:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/144848:INFO:webkit_glue.cc(270)] WebFrame LEAKED 1 TIMES
+[0928/144928:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/144929:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/145217:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/145218:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/150430:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/150431:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/151801:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/151802:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/162928:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/162928:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0928/163303:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0928/163304:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/121521:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/121522:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/123957:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/124143:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/125419:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/125420:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/125542:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x0046477A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteCookies [0x00442D1F+127] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:217)
+	wWinMain [0x00439091+561] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004980F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x00497F9F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1001/125918:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/125929:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/130133:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x0046477A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteCookies [0x00442D1F+127] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:217)
+	wWinMain [0x00439138+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004980F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x00497F9F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1001/145045:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/145100:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/145256:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::DeleteCookies [0x00442D37+215] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:245)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1001/151946:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/151947:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/152303:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x00442D16+182] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:219)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:256)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1001/152405:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464B8A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::CreateACookie [0x00442D4E+238] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:220)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:256)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1001/171403:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/171404:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/172033:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x00442D16+182] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:219)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:256)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1001/172510:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1001/172510:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1001/172621:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x00442D16+182] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:221)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:258)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1001/172647:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464B8A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::CreateACookie [0x00442D4E+238] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:222)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:258)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/110838:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/110849:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/110922:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x00442D16+182] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:221)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:260)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/110942:FATAL:thread.cc(106)] Check failed: !message_loop_. 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	(No symbol) [0x1195AF95]
+	cef_time_from_doublet [0x114B2ABF+19747007]
+	cef_time_from_doublet [0x114B2A76+19746934]
+	cef_time_from_doublet [0x112FBE39+17949753]
+	cef_time_from_doublet [0x112FAA6E+17944686]
+	cef_time_from_doublet [0x11198474+16493172]
+	cef_string_multimap_free [0x101C00E4+279220]
+	cef_browser_host_create_browser [0x10154C7D+1375571]
+	cef_browser_host_create_browser [0x10153D1C+1371634]
+	cef_browser_host_create_browser [0x1015374A+1370144]
+	cef_browser_host_create_browser [0x101536F6+1370060]
+	cef_browser_host_create_browser [0x10153688+1369950]
+	cef_browser_host_create_browser [0x1015729A+1385328]
+	(No symbol) [0x14B1C99D]
+	cef_browser_host_create_browser [0x10096066+594236]
+	cef_browser_host_create_browser [0x1009614F+594469]
+	cef_browser_host_create_browser [0x10094FF3+590025]
+	cef_browser_host_create_browser [0x1009505E+590132]
+	LdrInitializeThunk [0x7C90118A+36]
+	RtlDestroyEnvironment [0x7C9224CA+376]
+	IsValidLocale [0x7C81CAAE+2283]
+	ExitProcess [0x7C81CB26+20]
+	__crtExitProcess [0x004A79EB+27] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:709)
+	doexit [0x004A797A+474] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:621)
+	_exit [0x004A75D2+18] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:401)
+	raise [0x004ACBDB+443] (f:\dd\vctools\crt_bld\self_x86\crt\src\winsig.c:525)
+	_wassert [0x004A3471+2897] (f:\dd\vctools\crt_bld\self_x86\crt\src\assert.c:314)
+	CefCookieManagerCToCpp::VisitAllCookies [0x00464877+119] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:77)
+	ClientApp::CreateACookie [0x00442D4C+236] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:223)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:260)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/110949:FATAL:thread.cc(106)] Check failed: !message_loop_. 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	(No symbol) [0x1195AF95]
+	cef_time_from_doublet [0x114B2ABF+19747007]
+	cef_time_from_doublet [0x114B2A76+19746934]
+	cef_time_from_doublet [0x112FBE39+17949753]
+	cef_time_from_doublet [0x112FAA6E+17944686]
+	cef_time_from_doublet [0x11198474+16493172]
+	cef_string_multimap_free [0x101C00E4+279220]
+	cef_browser_host_create_browser [0x10154C7D+1375571]
+	cef_browser_host_create_browser [0x10153D1C+1371634]
+	cef_browser_host_create_browser [0x1015374A+1370144]
+	cef_browser_host_create_browser [0x101536F6+1370060]
+	cef_browser_host_create_browser [0x10153688+1369950]
+	cef_browser_host_create_browser [0x1015729A+1385328]
+	(No symbol) [0x14B1C99D]
+	cef_browser_host_create_browser [0x10096066+594236]
+	cef_browser_host_create_browser [0x1009614F+594469]
+	cef_browser_host_create_browser [0x10094FF3+590025]
+	cef_browser_host_create_browser [0x1009505E+590132]
+	LdrInitializeThunk [0x7C90118A+36]
+	RtlDestroyEnvironment [0x7C9224CA+376]
+	IsValidLocale [0x7C81CAAE+2283]
+	ExitProcess [0x7C81CB26+20]
+	__crtExitProcess [0x004A79EB+27] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:709)
+	doexit [0x004A797A+474] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:621)
+	_exit [0x004A75D2+18] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:401)
+	raise [0x004ACBDB+443] (f:\dd\vctools\crt_bld\self_x86\crt\src\winsig.c:525)
+	_wassert [0x004A3471+2897] (f:\dd\vctools\crt_bld\self_x86\crt\src\assert.c:314)
+	CefCookieManagerCToCpp::VisitAllCookies [0x00464877+119] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:77)
+	ClientApp::CreateACookie [0x00442D4C+236] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:223)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:260)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/110952:FATAL:thread.cc(106)] Check failed: !message_loop_. 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	(No symbol) [0x1195AF95]
+	cef_time_from_doublet [0x114B2ABF+19747007]
+	cef_time_from_doublet [0x114B2A76+19746934]
+	cef_time_from_doublet [0x112FBE39+17949753]
+	cef_time_from_doublet [0x112FAA6E+17944686]
+	cef_time_from_doublet [0x11198474+16493172]
+	cef_string_multimap_free [0x101C00E4+279220]
+	cef_browser_host_create_browser [0x10154C7D+1375571]
+	cef_browser_host_create_browser [0x10153D1C+1371634]
+	cef_browser_host_create_browser [0x1015374A+1370144]
+	cef_browser_host_create_browser [0x101536F6+1370060]
+	cef_browser_host_create_browser [0x10153688+1369950]
+	cef_browser_host_create_browser [0x1015729A+1385328]
+	(No symbol) [0x14B1C99D]
+	cef_browser_host_create_browser [0x10096066+594236]
+	cef_browser_host_create_browser [0x1009614F+594469]
+	cef_browser_host_create_browser [0x10094FF3+590025]
+	cef_browser_host_create_browser [0x1009505E+590132]
+	LdrInitializeThunk [0x7C90118A+36]
+	RtlDestroyEnvironment [0x7C9224CA+376]
+	IsValidLocale [0x7C81CAAE+2283]
+	ExitProcess [0x7C81CB26+20]
+	__crtExitProcess [0x004A79EB+27] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:709)
+	doexit [0x004A797A+474] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:621)
+	_exit [0x004A75D2+18] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0dat.c:401)
+	raise [0x004ACBDB+443] (f:\dd\vctools\crt_bld\self_x86\crt\src\winsig.c:525)
+	_wassert [0x004A3471+2897] (f:\dd\vctools\crt_bld\self_x86\crt\src\assert.c:314)
+	CefCookieManagerCToCpp::VisitAllCookies [0x00464877+119] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:77)
+	ClientApp::CreateACookie [0x00442D4C+236] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:223)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:260)
+	wWinMain [0x00406608+728] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:152)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/111950:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/111950:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/111956:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x0044404B+219] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:224)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:268)
+	wWinMain [0x00406561+561] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/115323:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/115324:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/115327:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x00449A8B+219] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:224)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:270)
+	wWinMain [0x00406561+561] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/121802:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/121802:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/121820:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464AFD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x00449A98+232] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:225)
+	ClientApp::DeleteCookies [0x00408613+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:275)
+	wWinMain [0x00406561+561] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004982F2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049819F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/122027:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/122028:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/123033:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/123033:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/123045:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464CAD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateACookie [0x00408698+232] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:226)
+	ClientApp::DeleteCookies [0x00442F03+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:281)
+	wWinMain [0x00406571+561] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004984A2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049834F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/123232:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464D3A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::CreateACookie [0x00408716+358] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:240)
+	ClientApp::DeleteCookies [0x00442F03+99] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:281)
+	wWinMain [0x00406571+561] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004984A2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049834F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/130811:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/130920:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/131111:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/131111:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/131339:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/131339:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/131706:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/131706:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/131718:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464DDD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateTestCookie [0x00442E4B+235] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:238)
+	ClientApp::TestCookieFunctionality [0x00442D3A+74] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:218)
+	wWinMain [0x00406586+566] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/131855:ERROR:ipc_channel_win.cc(391)] pipe error: 232
+[1002/131855:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464E6A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteTestCookie [0x00442FB1+129] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:246)
+	ClientApp::TestCookieFunctionality [0x00442D4A+90] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:224)
+	wWinMain [0x0040663E+750] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:156)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/132233:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/132234:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/132250:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464DDD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateTestCookie [0x00442E57+247] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:238)
+	ClientApp::TestCookieFunctionality [0x00442D3A+74] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:218)
+	wWinMain [0x00406586+566] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/132348:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464E6A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteTestCookie [0x00442FB4+132] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:246)
+	ClientApp::TestCookieFunctionality [0x00442D4A+90] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:224)
+	wWinMain [0x0040663E+750] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:156)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/132447:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/132447:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/132520:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464E6A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteTestCookie [0x00442FB4+132] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:246)
+	ClientApp::TestCookieFunctionality [0x00442D4A+90] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:224)
+	wWinMain [0x0040663E+750] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:156)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/132526:FATAL:thread.cc(106)] Check failed: !message_loop_. 
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	(No symbol) [0x1195AF95]
+	cef_time_from_doublet [0x114B2ABF+19747007]
+	cef_time_from_doublet [0x114B2A76+19746934]
+	cef_time_from_doublet [0x112FBE39+17949753]
+	cef_time_from_doublet [0x112FAA6E+17944686]
+	cef_time_from_doublet [0x11198474+16493172]
+	cef_string_multimap_free [0x101C00E4+279220]
+	cef_browser_host_create_browser [0x10154C7D+1375571]
+	cef_browser_host_create_browser [0x10153D1C+1371634]
+	cef_browser_host_create_browser [0x1015374A+1370144]
+	cef_browser_host_create_browser [0x101536F6+1370060]
+	cef_browser_host_create_browser [0x10153688+1369950]
+	cef_browser_host_create_browser [0x1015729A+1385328]
+	(No symbol) [0x14B1C99D]
+	cef_browser_host_create_browser [0x10096066+594236]
+	cef_browser_host_create_browser [0x1009614F+594469]
+	cef_browser_host_create_browser [0x10094FF3+590025]
+	cef_browser_host_create_browser [0x1009505E+590132]
+	LdrInitializeThunk [0x7C90118A+36]
+	RtlDestroyEnvironment [0x7C9224CA+376]
+	IsValidLocale [0x7C81CAAE+2283]
+	ExitProcess [0x7C81CB26+20]
+	ValidateLocale [0x7C843918+41200]
+
+[1002/133026:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/133026:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/133232:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464E6A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteTestCookie [0x00408694+164] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:260)
+	ClientApp::TestCookieFunctionality [0x00442D4A+90] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:226)
+	wWinMain [0x0040663E+750] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:156)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/133354:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/133400:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/133404:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464DDD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateTestCookie [0x00442E82+290] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:244)
+	ClientApp::TestCookieFunctionality [0x00442D3A+74] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:220)
+	wWinMain [0x00406586+566] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/133539:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464E6A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteTestCookie [0x00408694+164] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:260)
+	ClientApp::TestCookieFunctionality [0x00442D4A+90] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:226)
+	wWinMain [0x0040663E+750] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:156)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/133656:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/133657:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/133659:FATAL:cookie_manager_impl.cc(253)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017DFDD+8621]
+	cef_browser_host_create_browser [0x100424B6+251276]
+	CefCookieManagerCToCpp::SetCookie [0x00464DDD+189] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:130)
+	ClientApp::CreateTestCookie [0x00442E82+290] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:244)
+	ClientApp::TestCookieFunctionality [0x00442D3A+74] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:220)
+	wWinMain [0x00406586+566] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:125)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/133804:FATAL:cookie_manager_impl.cc(279)] Check failed: false. called on invalid thread
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_string_multimap_free [0x1017E32E+9470]
+	cef_browser_host_create_browser [0x100426E8+251838]
+	CefCookieManagerCToCpp::DeleteCookies [0x00464E6A+106] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\libcef_dll\ctocpp\cookie_manager_ctocpp.cc:148)
+	ClientApp::DeleteTestCookie [0x0040869C+172] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:261)
+	ClientApp::TestCookieFunctionality [0x00442D4A+90] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\client_app.cpp:226)
+	wWinMain [0x0040663E+750] (c:\documents and settings\uggy\my documents\flexion - software\cef3\drcbrowser\20120927\cefclient\cefclient_win.cpp:156)
+	__tmainCRTStartup [0x004985D2+322] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:275)
+	wWinMainCRTStartup [0x0049847F+15] (f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c:189)
+	RegisterWaitForInputIdle [0x7C817077+73]
+
+[1002/134838:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/134839:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/134956:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/134957:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1002/140255:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1002/140255:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/104634:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/104636:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/104804:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/104805:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/104927:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/104927:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/105023:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/105023:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/105156:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/105156:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/105312:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/105312:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/105447:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/105448:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/114329:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/114330:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/114345:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/114356:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/115453:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/115501:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/115927:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/115933:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/120306:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/120308:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/120449:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/120453:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/121026:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/121028:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/122015:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/122017:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/122348:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/122350:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/122959:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/123004:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/123238:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/123240:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/123556:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/123601:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/124106:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/124108:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/124357:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/124358:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/125004:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/125007:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/125419:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/125421:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/125511:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/125512:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/125718:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/125720:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/130522:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/130525:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/131253:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/131257:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/131658:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/131700:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/133409:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/133410:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/133739:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/133740:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/133857:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/133858:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/135951:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/135957:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/140101:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/140102:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/140711:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/140714:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/140751:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/140752:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/141122:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/141125:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/141320:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/141323:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/141638:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/141646:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/142107:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/142114:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/142504:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/142507:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1003/142717:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1003/142723:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126

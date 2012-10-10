@@ -1,0 +1,23 @@
+// DRC Configuration File - Henry Jacobson
+
+// The initial URL to display in the browser
+StartupURL:http://www.datarecognitioncorp.com
+//StartupURL:http://www.google.com
+
+// When IsSecureMode is true, this is the environment for the test taker.
+IsSecureMode:true
+
+// Should Mouse right-click (context-menu) be allowed?
+AllowMouseRightClick:false
+
+ShowWindowMaximized:true
+
+AllowAltTab:true
+
+HideTaskBar:false
+
+ClearClipboardOnBegin:true
+
+ClearClipboardOnExit:true
+
+CacheBrowserToMemory:true
