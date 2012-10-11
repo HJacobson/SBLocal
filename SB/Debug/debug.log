@@ -1,0 +1,58 @@
+[0927/125039:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/125045:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0927/161339:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/161342:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0927/161506:FATAL:thread_restrictions.cc(39)] Function marked as IO-only was called from a thread that disallows IO!  If this thread really should be allowed to make IO calls, adjust the call to base::ThreadRestrictions::SetIOAllowed() in this thread's startup.
+Backtrace:
+	cef_browser_host_create_browser [0x100C0141+766487]
+	cef_browser_host_create_browser [0x100AC75F+686133]
+	cef_browser_host_create_browser [0x100DEA77+891725]
+	(No symbol) [0x1195E884]
+	(No symbol) [0x1195E386]
+	cef_time_from_doublet [0x11133783+16080259]
+	cef_time_from_doublet [0x11133546+16079686]
+	cef_time_from_doublet [0x1113AEBE+16110782]
+	cef_time_from_doublet [0x11138916+16101142]
+	cef_browser_host_create_browser [0x100DE757+890925]
+	cef_browser_host_create_browser [0x100DE718+890862]
+	cef_browser_host_create_browser [0x100DE6D5+890795]
+	cef_browser_host_create_browser [0x100DCDEF+884421]
+	cef_browser_host_create_browser [0x100DCA85+883547]
+	cef_browser_host_create_browser [0x100DC71A+882672]
+	cef_time_from_doublet [0x11115356+15956310]
+	cef_time_from_doublet [0x11115312+15956242]
+	cef_time_from_doublet [0x111146B1+15953073]
+	cef_time_from_doublet [0x11114E75+15955061]
+	cef_time_from_doublet [0x11114E16+15954966]
+	cef_browser_host_create_browser [0x1015535F+1377333]
+	cef_browser_host_create_browser [0x10153766+1370172]
+	cef_browser_host_create_browser [0x101536F6+1370060]
+	cef_browser_host_create_browser [0x10153688+1369950]
+	cef_browser_host_create_browser [0x1015729A+1385328]
+	(No symbol) [0x14B1C99D]
+	cef_browser_host_create_browser [0x10096066+594236]
+	cef_browser_host_create_browser [0x1009614F+594469]
+	cef_browser_host_create_browser [0x10094FF3+590025]
+	cef_browser_host_create_browser [0x1009505E+590132]
+	LdrInitializeThunk [0x7C90118A+36]
+	RtlDestroyEnvironment [0x7C9224CA+376]
+	IsValidLocale [0x7C81CAAE+2283]
+	ExitProcess [0x7C81CB26+20]
+	ValidateLocale [0x7C83AB6E+4934]
+
+[0927/161515:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/161515:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[0927/163301:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[0927/163302:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1009/043809:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1009/043813:WARNING:dns_config_service_win.cc(481)] Failed to read DnsConfig.
+[1009/043816:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1009/044202:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1009/044202:WARNING:dns_config_service_win.cc(481)] Failed to read DnsConfig.
+[1009/044202:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1009/044629:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1009/044632:WARNING:dns_config_service_win.cc(481)] Failed to read DnsConfig.
+[1009/044635:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
+[1009/044831:ERROR:gpu_info_collector_win.cc(93)] Can't retrieve a valid WinSAT assessment.
+[1009/044831:WARNING:dns_config_service_win.cc(481)] Failed to read DnsConfig.
+[1009/044831:ERROR:dxva_video_decode_accelerator.cc(443)] Failed to load decoder dll: mf.dll, Error: 126
